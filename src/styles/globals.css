@@ -1,107 +1,121 @@
-:root {
-  --max-width: 1100px;
-  --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-
-  --primary-glow: conic-gradient(
-    from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
-  );
-  --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
-  );
-
-  --tile-start-rgb: 239, 245, 249;
-  --tile-end-rgb: 228, 232, 233;
-  --tile-border: conic-gradient(
-    #00000080,
-    #00000040,
-    #00000030,
-    #00000020,
-    #00000010,
-    #00000010,
-    #00000080
-  );
-
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+.hero{
+    /*background-color: black;*/
+    background-image: url(../../images/screenshot.jpg);
+    background-size: 100% 100%;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-
-    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-    --secondary-glow: linear-gradient(
-      to bottom right,
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0),
-      rgba(1, 65, 255, 0.3)
-    );
-
-    --tile-start-rgb: 2, 13, 46;
-    --tile-end-rgb: 2, 5, 19;
-    --tile-border: conic-gradient(
-      #ffffff80,
-      #ffffff40,
-      #ffffff30,
-      #ffffff20,
-      #ffffff10,
-      #ffffff10,
-      #ffffff80
-    );
-
-    --callout-rgb: 20, 20, 20;
-    --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
-    --card-border-rgb: 200, 200, 200;
+.hero1{
+    background-image: url(../../images/Ellipse\ 3.png);
+    background-size: 100% 100%;   
+}
+.hero2{
+    background-image: url(../../images/5.png);
+    background-size: 100% 100%;   
+}
+.hero3{
+    background-image: url(../../images/3.png);
+    background-size: 100% 100%;   
+}
+.hero4{
+    background-image: url(../../images/4.png);
+    background-size: 100% 100%;   
+}
+.hero5{
+    background-image: url(../../images/6.png);
+    background-size: 100% 100%;   
+}
+.hero6{
+    background-image: url(../../images/7.png);
+    background-size: 100% 100%;   
+}
+.swiper {
+    width: 100%;
+    height: 100%;
   }
+.slider1{
+    background-image: url(../../images/Image.png);
+    background-size: 100% 100%;
 }
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.slider2{
+    background-image: url(../../images/Image1.png);
+    background-size: 100% 100%;
 }
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.slider3{
+    background-image: url(../../images/Image2.png);
+    background-size: 100% 100%;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.slider4{
+    background-image: url(../../images/Image3.png);
+    background-size: 100% 100%;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.slider5{
+    background-image: url(../../images/Image.png);
+    background-size: 100% 100%;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.slider6{
+    background-image: url(../../images/5.png);
+    background-size: 100% 100%;
+}
+.seling{
+    background-image: url(../../images/image\ 14.png);
+    background-size: 100% 100%;
+}
+.seling1{
+    background-image: url(../../images/image\ 33.png);
+    background-size: 100% 100%;
+}
+.seling11{
+    background-image: url(../../images/seling11.png);
+    background-size: 100% 100%;
+}
+.seling12{
+    background-image: url(../../images/seling12.png);
+    background-size: 100% 100%;
+}
+.seling13{
+    background-image: url(../../images/seling13.png);
+    background-size: 100% 100%;
+}
+.seling14{
+    background-image: url(../../images/seling14.png);
+    background-size: 100% 100%;
+}
+.selling22{
+    background-image: url(../../images/image\ 39.png);
+    background-size: 100% 100%;
+}
+.selling23{
+    background-image: url(../../images/image\ 9.png);
+    background-size: 100% 100%;
+}
+.selling24{
+    background-image: url(../../images/image\ 38.png);
+    background-size: 100% 100%;
+}
+.selling25{
+    background-image: url(../../images/image\ 42.png);
+    background-size: 100% 100%;
+}
+.acceories1{
+    background-image: url(../../images/acceories4.png);
+    background-size: 100% 100%;
+}
+.acceories2{
+    background-image: url(../../images/acceories2.png);
+    background-size: 100% 100%;
+}
+.acceories3{
+    background-image: url(../../images/acceories.png);
+    background-size: 100% 100%;
+}
+.diper{
+    background-image: url(../../images/dipers.png);
+    background-size: 100% 100%;
+}
+.mark{
+    background-image: url(../../images/markup.png);
+    background-size: 100% 100%;
 }
